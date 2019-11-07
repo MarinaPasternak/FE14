@@ -436,3 +436,13 @@ Hypertext Transfer Protocol
     [Request URI: http://manic.cs.umass.edu/~kurose/cover_5th_ed.jpg]
     File Data: 100968 bytes
 JPEG File Interchange Format
+
+_________________________________________
+Благодаря программе Wireshark мы получаем 4 запроза по по протоколу http. 
+Используем метод GET, ответ серввера -  200 OK
+1 запрос получение файла
+2 запрос - текст 
+3 запрос Portable Network Graphics
+4 запрос JPEG File Interchange Format
+С помощю данного приложения можно получить информацию о хосте, опереационной системе
+учетной записе пользователя, так же есть возможность получть IP-адрес сайта 
