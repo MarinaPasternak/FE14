@@ -1,0 +1,30 @@
+body
+{
+    background-color:  rgb(118, 209, 209);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    color: black;
+}
+a
+{
+    margin: 10px;
+    text-decoration: none;
+}
+header{width: 100%;}
+nav
+{
+    position: fixed; 
+    top: 0;
+    display: flex;
+    background-color: cornflowerblue;
+    border: solid 3px white;
+}
+#Study{background-color: darkcyan;}
+#Work{background-color: darkturquoise;}
+#Introduction{background-color: rgb(105, 191, 219);}
+table
+{
+    background-color: darkcyan;
+    border: solid 3px white; 
+}
+td{border: solid 3px white;}
