@@ -1,6 +1,7 @@
 function FibonacciSequence(a,b,diraction)
 {
-    if(diraction==true)
+    console.log(diraction)
+    if(diraction=='true')
     {
         return a+b;
     }
@@ -9,9 +10,10 @@ function FibonacciSequence(a,b,diraction)
         return a-b;
     }
 }
-function *ganarationFibonacci(forward)
+function *ganarationFibonacci()
 {
-    
+
+    forward=prompt('diraction');
     let a=0;
     let b=1;
     let c=0;
@@ -24,18 +26,28 @@ function *ganarationFibonacci(forward)
             b=c;
         }        
 }
-function output(n,inputForward)
+function output(contin,n)
 {
     
-    var f = ganarationFibonacci(inputForward);
-    for(i=0;i<n;i++)
+    m=parseInt(prompt('num')) 
+    var f = ganarationFibonacci(); 
+    if(contin=='true')
+    {  
+                
+        for(i=n;i<m+n;i++)
+        {
+            console.log(f.next());   
+        }
+        contin=prompt('contin');
+        return output(contin,m-1)
+    } 
+    else
     {
-        console.log(f.next());   
+        return "Finsh"
     }
 }
-n=10;
-output(n,false);
-n=5;
-output(n,true);
+  
 
+output('true',0);
+    
 
