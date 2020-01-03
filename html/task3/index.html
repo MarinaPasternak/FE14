@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Links</title> 
+        <link rel="stylesheet" href="mainStyle.css">	
+    </head>
+
+    <body>
+        <header>
+                
+                <nav>
+                        <a href="#Introduction">Introduction</a>
+                        <details>
+                                <summary><a href="#MainPart">Expirience</a></summary>
+                                <a href="#Work">Work</a>
+                                <a href="#Study">Study</a>
+                        </details>
+                        <a href="#SumUp">TableSkils</a>
+                        <a href="#Contact">Conect with me</a>
+                        <a href="#Media">Media</a>
+                        <a href="#AboutUs">Contact info</a>
+                </nav>
+        </header>
+      
+        <main>  
+       
+                <section id = "Introduction">
+                         <aside id='Contact'>
+                                <form>
+                                        <p>E-mail:</p>
+                                        <a href="mailto:myEmail@gmail.com">myEmail@gmail.com</a>.
+                                        <p>Tel.</p>
+                                        <a href="tel:+1234567890"> Call us!</a><br>
+                                        <label>Choose e-mail
+                                        <p><input list="character">
+                                                 <datalist id="character">
+                                                        <option value="email1"></option>
+                                                        <option value="email2"></option>
+                                                        <option value="email3"></option>
+                                                 </datalist></p>
+                                        </label>
+                                        <label>Write massage<br>
+                                        <textarea name="comment" cols="40" rows="3"></textarea><br>
+                                        </label>
+                                        <button>Submit</button>        
+                                </form>                     
+                        </aside>   
+                <figure>   
+                        <img src="img/imagTask1.jpg">
+                        <figcaption>Something</figcaption>
+                </figure> 
+                        <h1>Introduction</h1>
+                        <p>My name is Marina</p>
+                        <p><bdi>مرسى</bdi></p>
+                        <p>On this web page I would like to introduce myself, tell about my skills in IT fild ad other fildes.<wbr>
+                                Also, I would tell about my work and study expirience. </p>
+                </section>
+                
+                <section id = "MainPart">
+                        <h1>Expirience</h1>
+
+                       
+
+                        <template>
+                                  <img src="img/imagTask1.jpg" width="214" height="204">
+                        </template>
+
+                        <section id = "Work">
+                                <h1>Work</h1>
+                                <article>
+                                        <p> Dnipropetrovsk National University of Railway Transport,<wbr>
+                                                Academician V. Lazaryan (July – August 2018 and July – August 2019) Dnipro, UkraineTrainee
+                                                <ul>
+                                                        <li>Preparing documentation</li>
+                                                        <li>Analyzing and processing data </li>
+                                                </ul>
+                                        </p>
+                                </article>
+                                <p>Draw smth</p>
+                                <canvas ></canvas>
+                        </section>
+
+                        <section id = "Study">
+                                <h1>Study</h1>
+                                I study at  National Technical University of Ukraine<wbr> 
+                                «Igor Sikorsky Kyiv Polytechnic Institute» from<time datetime="2017-09-01 19:00">2017</time> till present
+                              
+                        </section>
+                </section >
+
+                <section id = "SumUp">
+                        <h1>TableSkils</h1>
+                        <table>
+                                <tr>
+                                        <th>Field</th>
+                                        <th>Skills</th>
+                                        <th>Meter</th>
+                                </tr>
+                                <tr>
+                                        <td>C#</td>
+                                        <td>
+                                                <ul>
+                                                        <li>knowledge of syntax and data structures</li>
+                                                        <li>syntax</li>
+                                                        <li>experience and knowledge of development using oop</li>
+                                                        <li>LINQ</li>
+                                                        <li>ASP.Net</li>
+                                                </ul>        
+                                        </td>
+                                        <td><meter value="40" max="100" low="10" high="60"></meter></td>
+                                </tr>
+                                <tr>
+                                                <td>SQl</td>
+                                                <td>
+                                                        <ul>
+                                                       <li> creation of tables and the connections between them</li>
+                                                        <li>creation request</li>
+                                                        <li>data visualization via Python</li>
+                                                        <li></li>implementation algebra<li>
+                                                        </ul>            
+
+                                                </td>
+                                                <td><meter value="40" max="100" low="10" high="60"></meter></td>
+                                </tr>
+                                <tr>
+                                                <td>English</td>
+                                                <td>Intermidiate</td>
+                                                <td><meter value="50" max="100" low="10" high="60"></meter></td>
+                                </tr>
+                                <tr>
+                                                <td>HTML, CSS</td>
+                                                <td>
+                                                        <ul>
+                                                                <li>web page layout</li>
+                                                                <li>styles</li>
+                                                                <li>site interactivity</li>
+                                                        </ul>
+                                                </td>
+                                                <td>
+                                                        <form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">
+                                                                <label for="flying">Skill Level</label>
+                                                                <input name="flevel" id="flying" type="range" min="0" max="100" value="0"> 
+                                                                <output for="flying" name="level">0</output>/100
+                                                        </form>
+                                                </td>
+                                </tr>
+                        </table> 
+                </section>
+                <section id = "Media">
+                        <video height="300px"  controls="controls">
+                                <source src="sea.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' >
+                                <track kind="subtitles" src="sea.mp4" srclang="en" label="English">
+                        </video>
+                        <embed type="video/webm" src="flower.mp4">
+                        <audio controls>
+                                <source src="fix_you.mp3" type="audio/ogg; codecs=vorbis">
+                        </audio>
+                </section>
+        </main>
+        <footer id = "AboutUs">
+                <section>
+                        <button id="openDialog">Open window</button>
+                       
+                                <dialog>
+                                        <p>  <p>Author Pasternak Marina</p>
+                                        <p>E-mail:</p>
+                                        <a href="mailto:myEmail@gmail.com">myEmail@gmail.com</a>.
+                                        <p>Tel.</p>
+                                        <a href="tel:+1234567890"> Call us!</a>
+                                        <p>Read More</p>
+                                        <p><a href="https://www.wikipedia.org">Wiki</a></p>
+                                        <p><button id="closeDialog">Close window</button></p>
+                                </dialog>
+                       
+                                <script>
+                                        var dialog = document.querySelector('dialog');
+                                        document.querySelector('#openDialog').onclick = function() 
+                                        {
+                                                dialog.show(); 
+                                        }
+                                        document.querySelector('#closeDialog').onclick = function() 
+                                        {
+                                                dialog.close(); 
+                                        }
+                                </script>
+                 </section>
+        </footer>
+       
+
+    </body>
+</html>
